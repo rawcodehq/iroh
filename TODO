@@ -1,0 +1,15 @@
+# Iroh
+
+V1
+    1. A user should be able to add a Quote
+        text
+    2. A user should receive an email with the Quote every day
+
+V2
+    1. A user should be able to create an account with an email
+
+
+Model Views Controllers Router
+
+1. Router > Receptionist
+2. Controller -> Request -> (Use the Model and render a View) -> Client
