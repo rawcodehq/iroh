@@ -1,1 +1,7 @@
 <h1>Hello, World</h1>
+
+<% @quotes.each do |quote| %>
+<blockquote>
+<%= quote.body %>
+</blockquote>
+<% end %>

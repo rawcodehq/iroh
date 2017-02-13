@@ -1,5 +1,14 @@
 # Iroh
 
+# E2
+https://github.com/rawcodehq/iroh
+- Allow user to save a Quote
+- Discuss irb
+- Discuss models
+- Discuss database access
+
+- - -
+
 V1
     1. A user should be able to add a Quote
         text
@@ -12,4 +21,32 @@ V2
 Model Views Controllers Router
 
 1. Router > Receptionist
-2. Controller -> Request -> (Use the Model and render a View) -> Client
+2. Controller -> Request -> (Use the Model and render a View) -> Client (Browser)
+
+
+Model
+
+
+Note down the quote in  a book
+Datastore
+Database -> postgresql
+
+Database
+  Tables
+
+  quotes
+    id
+    body
+    created_at datetime
+
+
+
+Marks of students of Class 2
+
+# Table
+Student Name | Maths | Science | Social
+Mujju        | 80    | 98      | 90
+Zainab       | 90    | 98      | 90
+
+
+

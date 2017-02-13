@@ -1,0 +1,7 @@
+<h1>New Quote</h1>
+
+<%= form_tag "/quotes" do %>
+  <%= text_area_tag "body" %>
+  <br />
+  <%= submit_tag "Save Quote" %>
+<% end %>
