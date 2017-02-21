@@ -3,7 +3,7 @@ class QuotesController < ApplicationController
   end
 
   def create
-    quote = Quote.new(params[:body])
+    quote = Quote.new(body: params[:body])
     quote.save
     redirect_to "/"
   end
